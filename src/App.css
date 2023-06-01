@@ -1,38 +1,78 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  width: 80%;
+  animation-name: container-animation;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  padding-top: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes container-animation {
+  0% {
+    padding-top: 500px;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    padding-top: 0px;
+  }
+}
+
+.riddlebutton {
+  color: white;
+  background: linear-gradient(to top, #2c3e50, #4ca1af);
+  padding: 5px;
+  font-family: fantasy;
+  border-radius: 5px;
+  border: 1px solid #0b486b;
+  transition: 1s;
+}
+
+.riddlebutton:hover {
+  color: #00d2ff;
+  font-size: 22px;
+}
+
+.arrow {
+  color: cadetblue;
+  font-size: 60px;
+}
+
+.correct-answer {
+  border: solid #928dab 4px;
+  opacity: 0;
+  transition: 1s;
+  padding: 50px 5px;
+  width: 40%;
+  margin: auto;
+}
+
+.correct-answer:hover {
+  opacity: 1;
+}
+
+body {
+  background: linear-gradient(to right, #7bc6cc, #be93c5);
+  margin: 0;
+  animation-name: gradient-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100 50%;
+  }
+  100% {
+    background-color: 0 50%;
   }
 }
