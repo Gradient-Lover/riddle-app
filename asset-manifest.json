@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Gradient-Lover.github.io/riddle-app/static/css/main.bf191f59.css",
+    "main.js": "/Gradient-Lover.github.io/riddle-app/static/js/main.f6c44024.js",
+    "static/js/787.8afd0638.chunk.js": "/Gradient-Lover.github.io/riddle-app/static/js/787.8afd0638.chunk.js",
+    "index.html": "/Gradient-Lover.github.io/riddle-app/index.html",
+    "main.bf191f59.css.map": "/Gradient-Lover.github.io/riddle-app/static/css/main.bf191f59.css.map",
+    "main.f6c44024.js.map": "/Gradient-Lover.github.io/riddle-app/static/js/main.f6c44024.js.map",
+    "787.8afd0638.chunk.js.map": "/Gradient-Lover.github.io/riddle-app/static/js/787.8afd0638.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf191f59.css",
+    "static/js/main.f6c44024.js"
+  ]
+}
